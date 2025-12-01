@@ -14,7 +14,7 @@ const backHomeBtn = document.getElementById("back-home");
 function verificarDatos() {
   if (!movie || !showtime || !seatData) {
     alert("Faltan datos de la compra. Volviendo al inicio.");
-    window.location.href = "movies.html";
+    window.location.href = "index.html";
   }
 }
 verificarDatos();
@@ -42,6 +42,6 @@ if (backHomeBtn) {
     localStorage.removeItem("selectedShowtime");
     localStorage.removeItem("selectedSeatsData");
 
-    window.location.href = "movies.html";
+    window.location.href = "index.html";
   });
 }

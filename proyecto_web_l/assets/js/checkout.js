@@ -13,7 +13,7 @@ const form = document.getElementById("checkout-form");
 function verificarDatos() {
   if (!movie || !showtime || !seatData) {
     alert("Faltan datos de la compra. Vuelve a la cartelera.");
-    window.location.href = "movies.html";
+    window.location.href = "index.html";
   }
 }
 verificarDatos();

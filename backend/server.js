@@ -11,8 +11,7 @@ const movies = [
   {
     id: 'telefono-negro-2',
     titulo: 'TELEFONO NEGRO 2',
-    poster: 'https://AndreaSoto7.github.io/PROYECTO_WEB_L/assets/img/telefononegro.png',
-    tituloOriginal: 'The Black Phone 2',
+    poster: 'https://andreasoto7.github.io/ProyectoFinal/proyecto_web_l/assets/img/telefononegro.png',    tituloOriginal: 'The Black Phone 2',
     director: 'Scott Derrickson',
     reparto: 'Ethan Hawke',
     sinopsis:
@@ -41,7 +40,7 @@ const movies = [
   {
     id: 'depredador-tierras-salvajes',
     titulo: 'DEPREDADOR: TIERRAS SALVAJES',
-    poster: 'https://AndreaSoto7.github.io/PROYECTO_WEB_L/assets/img/depredador.png',
+    poster: 'https://andreasoto7.github.io/ProyectoFinal/proyecto_web_l/assets/img/depredador.png',
     tituloOriginal: 'Predator: Savage Lands',
     director: 'Dan Trachtenberg',
     reparto: 'Elle Fanning',
@@ -65,7 +64,7 @@ const movies = [
   {
     id: 'a-pesar-de-ti',
     titulo: 'A PESAR DE TI',
-    poster: 'https://AndreaSoto7.github.io/PROYECTO_WEB_L/assets/img/apesardeti.png',
+    poster: 'https://andreasoto7.github.io/ProyectoFinal/proyecto_web_l/assets/img/apesardeti.png',
     tituloOriginal: 'A Pesar de Ti',
     director: 'Nombre Director',
     reparto: 'Reparto principal',
@@ -78,8 +77,7 @@ const movies = [
   {
     id: 'wicked-por-siempre',
     titulo: 'WICKED: POR SIEMPRE',
-    poster: 'https://AndreaSoto7.github.io/PROYECTO_WEB_L/assets/img/wicked.png',
-    tituloOriginal: 'Wicked: Forever',
+    poster: 'https://andreasoto7.github.io/ProyectoFinal/proyecto_web_l/assets/img/wicked.png',    tituloOriginal: 'Wicked: Forever',
     director: 'Nombre Director',
     reparto: 'Reparto principal',
     sinopsis:
@@ -91,7 +89,7 @@ const movies = [
   {
     id: 'zootopia-2',
     titulo: 'ZOOTOPIA 2',
-    poster: 'https://AndreaSoto7.github.io/PROYECTO_WEB_L/assets/img/zootopia.png',
+    poster: 'https://andreasoto7.github.io/ProyectoFinal/proyecto_web_l/assets/img/zootopia.png',
     tituloOriginal: 'Zootopia 2',
     director: 'Nombre Director',
     reparto: 'Reparto principal',
@@ -104,7 +102,7 @@ const movies = [
   {
     id: 'ilusionistas-3',
     titulo: 'ILUSIONISTAS 3',
-    poster: 'https://AndreaSoto7.github.io/PROYECTO_WEB_L/assets/img/ilusionistas.png',
+    poster: 'https://andreasoto7.github.io/ProyectoFinal/proyecto_web_l/assets/img/ilusionistas.png',
     tituloOriginal: 'Now You See Me 3',
     director: 'Nombre Director',
     reparto: 'Reparto principal',
