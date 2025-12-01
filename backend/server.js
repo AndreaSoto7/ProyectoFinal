@@ -66,8 +66,8 @@ const movies = [
     titulo: 'A PESAR DE TI',
     poster: 'https://andreasoto7.github.io/ProyectoFinal/assets/img/apesardeti.png',
     tituloOriginal: 'A Pesar de Ti',
-    director: 'Nombre Director',
-    reparto: 'Reparto principal',
+    director: 'Josh Boone',
+    reparto: 'Mckenna Grace',
     sinopsis:
       'Drama romántico sobre dos personas que intentan rehacer su vida luego de una ruptura dolorosa.',
     funciones: [
@@ -78,8 +78,8 @@ const movies = [
     id: 'wicked-por-siempre',
     titulo: 'WICKED: POR SIEMPRE',
     poster: 'https://andreasoto7.github.io/ProyectoFinal/assets/img/wicked.png',    tituloOriginal: 'Wicked: Forever',
-    director: 'Nombre Director',
-    reparto: 'Reparto principal',
+    director: 'Jon M. Chu',
+    reparto: 'Ariana Grande',
     sinopsis:
       'Secuela musical que continúa la historia de las brujas de Oz y sus destinos entrelazados.',
     funciones: [
@@ -91,8 +91,8 @@ const movies = [
     titulo: 'ZOOTOPIA 2',
     poster: 'https://andreasoto7.github.io/ProyectoFinal/assets/img/zootopia.png',
     tituloOriginal: 'Zootopia 2',
-    director: 'Nombre Director',
-    reparto: 'Reparto principal',
+    director: 'Jared Bush',
+    reparto: 'Shakira',
     sinopsis:
       'Judy Hopps y Nick Wilde investigan un nuevo caso que pone en peligro la paz entre depredadores y presas.',
     funciones: [
@@ -104,8 +104,8 @@ const movies = [
     titulo: 'ILUSIONISTAS 3',
     poster: 'https://andreasoto7.github.io/ProyectoFinal/assets/img/ilusionistas.png',
     tituloOriginal: 'Now You See Me 3',
-    director: 'Nombre Director',
-    reparto: 'Reparto principal',
+    director: 'Ruben Fleischer',
+    reparto: 'Dave Franco',
     sinopsis:
       'Los jinetes vuelven para su truco más ambicioso, enfrentándose a un nuevo enemigo internacional.',
     funciones: [
