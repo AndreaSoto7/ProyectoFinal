@@ -1,0 +1,59 @@
+h2, p, h3{
+    color: #fff;
+}
+
+.ticket{
+    margin: 15px;
+    background-color: #34495e;
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.ticket-movie{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ticket-movie img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.movie-inf{
+    width: 100%;
+    justify-items: center;
+}
+
+.ticket-details{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 15px 0 20px;
+}
+
+.seat-info,
+.pago-info{
+    flex: 1;
+}
+
+
+.seat-info{
+    width: 150px;
+}
+
+.pago-info{
+    width: 150px;
+}
+
+button{
+    padding: 15px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #f9c239;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+

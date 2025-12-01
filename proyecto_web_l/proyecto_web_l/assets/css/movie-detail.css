@@ -1,0 +1,74 @@
+h2, .detail-movie, button{
+    color: #fff;
+}
+
+.movie-detail, .showtimes{
+    margin: 0 10px;
+}
+
+.movie-detail h1 {
+    color: #fff;
+    font-size: 22px;  
+    text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button{
+    background-color: #292E38;
+    width: 95px;
+    height: 32px;
+    border-radius: 8px;
+}
+
+@media (min-width: 576px) {
+
+    .movie-detail {
+        margin: 0 auto;
+        max-width: 520px;
+    }
+
+    .movie-detail h1 {
+        font-size: 26px;
+    }
+
+    #showtimes-list {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    button {
+        width: 110px;
+        height: 36px;
+    }
+}
+
+@media (min-width: 1080px) {
+
+    .movie-detail {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .showtimes {
+        margin: 30px auto 40px;
+        text-align: center;
+    }
+
+    #showtimes-list {
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    button {
+        width: 130px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+}

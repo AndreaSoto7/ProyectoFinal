@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen de compra</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/checkout.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="movies.html">
+                <img src="assets/img/logo.png" alt="Logo de la página">
+            </a>
+            <span><strong>Cine</strong></span>
+        </div>
+    </header>
+    <main>
+        <section class="information">
+            <div class="inf-movie">
+                <div>
+                    <h1 id="movie-title">Cosmic Frontier</h1>
+                    <p id="showtime">Hoy - 3:00 PM</p>
+                </div>
+                    <h2 id="total-price">$20.00</h2>
+            </div>
+            <div>
+                <div class="seat">
+                    <p><strong>Asientos</strong></p>
+                    <p id="selected-seats">F5, G1</p>   
+                </div>
+                <div class="entrada">
+                    <p><strong>Entradas</strong></p>
+                    <p id="tickets-count">2</p>
+                </div>
+            </div>
+        </section>
+        <form id="checkout-form" action="#">
+            <label for="name">Full name</label>
+            <input type="text" name="name" id="name" >
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" >
+            <label for="telefono">Phone number</label>
+            <input type="tel" name="telefono" id="telefono">
+
+            <button type="submit">Comprar</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <p>© 2025 Cine. Reservados todos los derechos.</p>
+    </footer>
+    <script src="assets/js/checkout.js"></script>
+</body>
+</html>

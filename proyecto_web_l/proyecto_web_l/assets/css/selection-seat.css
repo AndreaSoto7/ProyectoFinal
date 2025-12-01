@@ -1,0 +1,134 @@
+h1, p, button{
+    color: #fff;
+}
+
+header p{
+    color: #9ea7ba;
+    text-align: center;
+}
+
+.session-info img {
+    width: 100%;
+    display: block;
+}
+
+.selected_seat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.selected_seat span{
+    display: block;
+    height: 10px;
+    width: 10px;
+
+}
+
+.disponible{
+    background-color: #9da6b9;
+}
+
+.seleccionado{
+     background-color: #135bec;
+}
+
+.ocupado{
+     background-color: #3b4354;
+}
+
+.ventana button{
+    background-color: #135bec;
+    width: 100%;    
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.seat{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.seat div{
+    background-color: #9da6b9;
+    height: 20px;
+    width: 20px;
+}
+
+
+.seat div.seleccionado {
+    background-color: #135bec;
+}
+
+.seat div.ocupado {
+    background-color: #3b4354; 
+}
+
+
+@media (min-width: 576px) {
+    .seat {
+        max-width: 500px;
+        margin: 0 auto;
+        gap: 14px;
+    }
+
+    .seat div {
+        width: 24px;
+        height: 24px;
+    }
+    .session-info img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .selected_seat {
+        gap: 14px;
+        margin: 20px 0;
+    }
+
+    .ventana button {
+        font-size: 16px;
+        padding: 18px;
+    }
+}
+
+@media (min-width: 1080px) {
+
+    main {
+        max-width: 900px;
+        margin: 40px auto;
+    }
+
+    .session-info img {
+        max-width: 60%;
+        margin: 0 auto 20px;
+    }
+
+    .seat {
+        max-width: 600px;
+        margin: 20px auto 30px;
+        gap: 16px;
+    }
+
+    .seat div {
+        width: 28px;
+        height: 28px;
+    }
+
+    .selected_seat {
+        gap: 18px;
+        margin: 25px 0;
+    }
+
+    .ventana button {
+        font-size: 18px;
+        padding: 20px;
+        border-radius: 12px;
+    }
+}
+
+

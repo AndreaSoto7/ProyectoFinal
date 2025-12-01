@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: #121217;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.logo{
+    display: flex;
+    background-color: #f9c239;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img{
+    width: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo span{
+    font-size: 30px;
+}
+
+h1{
+    margin: 20px 10px;
+}
+
+.card-movies{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h2{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer, h1{
+    text-align: center;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    body {
+        max-width: 576px; 
+    }
+
+    .card-movies {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        padding: 0 10px 20px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        max-width: 1024px;
+    }
+
+    .logo {
+        justify-content: flex-start;
+        gap: 10px;
+        padding-inline: 40px;
+    }
+
+    h1 {
+        text-align: left;
+        margin: 30px 40px 20px;
+    }
+
+    .card-movies {
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 20px;
+        padding: 0 40px 40px;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px 0 30px;
+    }
+}

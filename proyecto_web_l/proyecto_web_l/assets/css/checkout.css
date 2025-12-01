@@ -1,0 +1,88 @@
+h1, p, label, h2{
+    color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+.information {
+    background-color: #34495e;
+    border-radius: 10px;
+}
+
+button{
+    padding: 20px;
+    width: 100%;
+    margin-top: 90px;
+    background-color: #135bec;
+    color: white;
+    border-radius: 10px;
+}
+
+main{
+    margin: 10px;
+}
+
+.form{
+    display: block;
+    width: 100%;
+}
+
+#checkout-form label,
+#checkout-form input,
+#checkout-form button {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: justify;
+}
+
+.inf-movie{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.seat, .entrada{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 576px) {
+
+    main{
+        margin: 20px;
+    }
+
+    .information,
+    #checkout-form{
+        border-radius: 12px;
+    }
+}
+
+@media (min-width: 1080px) {
+
+    main{
+        max-width: 800px;
+        margin: 40px auto;
+    }
+
+    .information,
+    #checkout-form{
+        padding: 20px 24px;
+        margin: 0 0 20px;
+    }
+
+    .inf-movie h1{
+        font-size: 24px;
+    }
+
+    #checkout-form button{
+        font-size: 17px;
+    }
+}
